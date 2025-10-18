@@ -1,3 +1,0 @@
-﻿# 30_Days_Of_Python
-This is a Challange to gain skills and knowledge in python.
-
