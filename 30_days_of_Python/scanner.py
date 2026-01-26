@@ -4,7 +4,7 @@ address =  str(input("Enter your file name or location address:"))
 try:
   with open(address, "r") as file:
     content = file.read().lower()
-    if "DEBUG = TRUE" in content:
+    if "debug = true" in content:
       print("Vulnarability Found ☠")
     else:
       print("You are safe for Prod😊")
