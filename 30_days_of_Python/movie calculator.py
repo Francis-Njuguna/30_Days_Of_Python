@@ -41,7 +41,8 @@ if age >= 21 or age >= 18 and (show_time != 'Evening' or is_member):
     else:
         service_charges = 1
     print('Service charges:', service_charges)
-
+    total_price = base_price + extra_charges + service_charges - discount
+    print('Total ticket price:', total_price)
     
 else:
     print('Ticket booking failed due to restrictions')
